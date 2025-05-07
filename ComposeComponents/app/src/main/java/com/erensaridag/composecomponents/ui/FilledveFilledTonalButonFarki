@@ -1,0 +1,54 @@
+Kullanım amacı açısuiından FilledButton ve FilledTonalButton arasındaki farklar, butonun öncelik düzeyine ve kullanıcı deneyimine nasıl katkı sağladığına bağlıdır.
+
+Kullanım Amacı Açısından Farklar
+FilledButton → Birincil (Primary) Aksiyonlar için
+
+Kullanıcının öncelikli olarak yapmasını istediğin işlemler için uygundur.
+
+En önemli çağrıya (Call to Action - CTA) sahiptir.
+
+Örneğin:
+
+"Kaydet", "Gönder", "Devam Et" gibi önemli işlemler.
+
+Form gönderme, alışveriş tamamlama, ödeme yapma gibi kullanıcıdan belirgin bir aksiyon beklenen durumlar.
+
+Tek bir baskın buton olması gereken yerler (Örneğin, bir ekranda sadece bir tane en önemli buton).
+
+FilledTonalButton → İkincil (Secondary) Aksiyonlar için
+
+Alternatif veya destekleyici işlemler için kullanılır.
+
+Kullanıcının yapmasını istediğin ama kritik olmayan işlemler için uygundur.
+
+Örneğin:
+
+"Daha Fazla Bilgi", "Önizleme", "Alternatif Seçenekler" gibi ek işlemler.
+
+Birincil butonla ilişkili ama daha az önemli işlemler (Örneğin, "Kaydet" butonunun yanında "Taslağı Kaydet").
+
+Kullanıcıya fazla baskı yapmadan seçenek sunmak gereken durumlar.
+
+Gerçek Dünya Senaryoları
+Ödeme Sayfası:
+
+"Satın Al" → FilledButton (En kritik işlem).
+
+"Sepete Ekle" → FilledTonalButton (Alternatif veya destekleyici işlem).
+
+Form Gönderme:
+
+"Gönder" → FilledButton.
+
+"Önizle" veya "Kaydet" → FilledTonalButton.
+
+Ayarlar Menüsü:
+
+"Kaydet ve Çık" → FilledButton.
+
+"Varsayılan Ayarlara Dön" → FilledTonalButton.
+
+Sonuç
+Eğer kullanıcıdan kesinlikle o butona basmasını istiyorsan FilledButton kullan.
+
+Eğer buton bir alternatif, yardımcı ya da isteğe bağlı bir seçenek sunuyorsa FilledTonalButton kullan.

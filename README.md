@@ -1,1 +1,1 @@
-caner turenin yt uzerinden anlatmis oldugu jetpack compose componentlerinin oldugu repodur
+caner turenin yt uzerinden anlatmis oldugu jetpack compose componentlerinin oldugu repodur.

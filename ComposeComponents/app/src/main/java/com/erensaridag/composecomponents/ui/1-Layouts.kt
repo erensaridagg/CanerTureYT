@@ -54,7 +54,7 @@ fun ColumnSamples() {
         Spacer(modifier = Modifier.height(16.dp))
         Text("Item Two")
         Spacer(modifier = Modifier.height(16.dp))
-        Text("Item Three")
+        Text("Item Threee")
     }
 }
 
